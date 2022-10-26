@@ -2,9 +2,6 @@
 <br />
 
 <p align="center">
-  <a href="https://easybase.io">
-    <img src="https://easybase.io/assets/images/logo_black.png" alt="easybase logo black" width="80" height="80">
-  </a>
 </p>
 
 <br />
@@ -20,7 +17,7 @@
 <h3 align="center">
   <b>
     <a href="https://easybase.io/react/">
-      Check out the full React & React Native walkthrough 📗📘
+      NHRP Utilities Library
     </a>
   </b>
 </h3>
