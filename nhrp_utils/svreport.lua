@@ -52,5 +52,5 @@ AddEventHandler('nhrp:report', function(message, report_user_id)
   local me_identifiers = extract_identifiers(source)
   local sender_msg = "**report sent by: " .. GetPlayerName(source) .. " (ID: " .. me_identifiers.steam .. ")**"
 
-  send_discord("https://discordapp.com/api/webhooks/1033386307029835856/hqKMdhfd0DRVUVBXkxGcOFAYRvxxTF-yYex_rTQLdE1e5S0ZVvreJKVwJGJkp6sW8sYu", "https://media.discordapp.net/attachments/1031622906708512818/1033386450198200340/lomgq15y98z71.jpg?width=506&height=612", "New Report", "**__NEW REPORT__**\nReport Message: **" .. message .. "**\n\n**" ..  sender_msg .. "**", 15418782)
+  send_discord("webook", "https://media.discordapp.net/attachments/1031622906708512818/1033386450198200340/lomgq15y98z71.jpg?width=506&height=612", "New Report", "**__NEW REPORT__**\nReport Message: **" .. message .. "**\n\n**" ..  sender_msg .. "**", 15418782)
 end)
