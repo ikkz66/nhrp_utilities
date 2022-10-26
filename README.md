@@ -32,12 +32,15 @@
 File Structure
 
 ```
-├── src/
-│   ├── App.js
-│   ├── index.js
-│   └── ebconfig.js  <–––
-├── assets/
-├── package.json
+├── nhrp_utils/
+│   ├── fxmanifest.lua
+│   ├── config.lua
+│   ├── client.lua
+│   ├── nhrp.lua
+│   ├── svreport.lua
+│   └── visualsettings.dat
+├── html/
+├── audio/
 └── ...
 ```
 
