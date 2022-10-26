@@ -25,11 +25,7 @@
 <br />
 
 <!-- DOCUMENTATION -->
-## Documentation
 
-Formal documentation for this library [is available here](https://easybase.io/docs/easybase-react/).
-
-Information on **database querying** [can be found in the EasyQB docs](https://easybase.github.io/EasyQB/).
 
 ## Getting Started
 
