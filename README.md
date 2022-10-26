@@ -29,7 +29,7 @@
 
 ## Getting Started
 
-File Structure
+1. File Structure
 
 ```
 ├── nhrp_utils/
@@ -44,34 +44,24 @@ File Structure
 └── ...
 ```
 
-2. Then, wrap your root component in *EasybaseProvider* with your credentials.
+2. Examples
 ```
-npm install easybase-react
-```
-
-```jsx
-import React, { useEffect } from "react";
-import { EasybaseProvider, useEasybase } from 'easybase-react';
-import ebconfig from "./ebconfig";
-
-function App() {
-  return (
-    <EasybaseProvider ebconfig={ebconfig}>
-      <Container />
-    </EasybaseProvider>
-  );
-}
+start nhrp_utils
 ```
 
-## Examples
+```lua
+notification = {
+        icons = true, -- show or hide icons default true
+        insert = 'before', -- Accepted values: after or before.
+        pool = 0, -- Default: 0 Limits the number of concurrent notification elements that can be rendered within the notifications container at any given time. A value of 0 means that there is no limit.
+        sticky = false, -- Default: false A boolean designating whether the notification elements should be removed automatically when they expire or whether they should stay in the DOM until they are removed manually.
+        pauseOnHover = true, -- Default: true A boolean designating whether the notifications expiration control should pause when hovering over the wrapper element. Can only be set on class instantiation.
+        life = 7000, -- Default: 3000 Expiration time for non-sticky notification elements in milliseconds.
+        progressbar = true, -- A boolean designating whether the life time progress bar will be displayed for each notification element
+        effect = 'slide', -- The animation effect when adding or removing notification elements. Accepted values: fade or slide.
+        easing = 'ease-in-out', -- linear, ease, ease-in, ease-out, ease-in-out or a custom cubic-bezier value.
+    }
+		send_notify('info','.gg/nhdojrp', 'Example notification!', notification)
+```
 
-* [Single Component User Authentication](https://easybase.io/react-and-react-native-user-authentication/)
 
-* [Stateful Database](https://easybase.io/react-database-app-tutorial/)
-
-* [Google Analytics Integration](https://easybase.io/react/#google-analytics-integration)
-
-<!-- CONTACT -->
-## Contact
-
-[@easybase_io](https://twitter.com/easybase_io) – hello@easybase.io
